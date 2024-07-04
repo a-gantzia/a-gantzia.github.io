@@ -1187,6 +1187,46 @@ header nav ul li a:focus {
   margin-top: 10px;
 }
 
+
+
+
+.project_container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.project_container_image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.project_content_container {
+  flex: 1;
+}
+
+.button_container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.project_button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.project_button i {
+  margin-right: 5px;
+}
+
+
 /*---------------footer-------------*/
 
 footer {
