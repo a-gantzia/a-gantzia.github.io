@@ -1215,16 +1215,22 @@ header nav ul li a:focus {
 }
 
 .project_button {
-    padding: 10px;
-    background-color: #007BFF;
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Updated color */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.project_button i {
+    margin-right: 5px;
 }
 
 .project_button:hover {
-    background-color: #0056b3;
+    background-color: #45a049; /* Slightly darker shade */
 }
 
 .portfolio-content-items .row {
@@ -1238,7 +1244,6 @@ header nav ul li a:focus {
     padding-right: 15px;
     padding-left: 15px;
 }
-
 
 
 
