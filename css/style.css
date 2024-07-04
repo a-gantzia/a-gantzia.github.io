@@ -1189,13 +1189,14 @@ header nav ul li a:focus {
 
 
 
-
 .portfolio-item {
     margin-bottom: 30px;
 }
 
 .portfolio-img {
     position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-details {
@@ -1203,10 +1204,12 @@ header nav ul li a:focus {
     background-color: #f9f9f9;
     border: 1px solid #e1e1e1;
     border-top: none;
+    margin-top: -5px;
 }
 
 .button_container {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-top: 10px;
 }
@@ -1222,6 +1225,18 @@ header nav ul li a:focus {
 
 .project_button:hover {
     background-color: #0056b3;
+}
+
+.portfolio-content-items .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.portfolio-content-items .mix {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 
