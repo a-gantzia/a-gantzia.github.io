@@ -1190,41 +1190,41 @@ header nav ul li a:focus {
 
 
 
-.project_container {
-  display: flex;
-  margin-bottom: 20px;
+.portfolio-item {
+    margin-bottom: 30px;
 }
 
-.project_container_image {
-  width: 200px;
-  height: 150px;
-  object-fit: cover;
-  margin-right: 20px;
+.portfolio-img {
+    position: relative;
 }
 
-.project_content_container {
-  flex: 1;
+.portfolio-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-top: none;
 }
 
 .button_container {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .project_button {
-  padding: 10px;
-  background-color: #007BFF;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-.project_button i {
-  margin-right: 5px;
+.project_button:hover {
+    background-color: #0056b3;
 }
+
+
 
 
 /*---------------footer-------------*/
