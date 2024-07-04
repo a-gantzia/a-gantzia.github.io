@@ -1216,7 +1216,7 @@ header nav ul li a:focus {
 
 .project_button {
     padding: 10px 15px;
-    background-color: #4CAF50; /* Updated color */
+    background-color: #696969;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -1230,7 +1230,7 @@ header nav ul li a:focus {
 }
 
 .project_button:hover {
-    background-color: #45a049; /* Slightly darker shade */
+    background-color: #545454; /* Slightly darker shade */
 }
 
 .portfolio-content-items .row {
